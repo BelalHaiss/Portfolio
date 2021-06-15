@@ -2,13 +2,14 @@
   height: 100rem;
   perspective: 150rem;
   -moz-perspective: 150rem;
-  padding: 50px;
+  padding: 100px;
+  margin-top: 10rem;
 
   & .project__card {
     position: relative;
-    height: 55rem;
+    height: 45rem;
     margin: 0 auto;
-    width: 50%;
+
     overflow: hidden;
     & .project__heading {
       position: absolute;
@@ -25,7 +26,7 @@
       text-align: center;
     }
     & .project__card__side {
-      height: 50rem;
+      height: 40rem;
 
       position: absolute;
 
@@ -83,13 +84,12 @@
       transform: rotateY(0);
     }
   }
-  & .project__img {
+  & .project__img img {
     // background-position: center;
+
     width: 100%;
-    background-image: url('imgs/projects/thestraightpath.png');
-    // background-blend-mode: screen;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
   }
 }

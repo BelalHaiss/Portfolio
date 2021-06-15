@@ -1,16 +1,39 @@
+@media screen and (max-width: 1100px) {
+  .back-end-project {
+    & .project__card {
+      height: 30rem;
+      overflow: hidden;
+    }
+    & .project__card__side {
+      height: 25rem;
+    }
+  }
+}
 @media screen and (max-width: 828px) {
   #about {
     height: 105rem;
+  }
+  .back-end-project {
+    margin-top: 3rem;
+    & .project__card {
+      height: 30rem;
+    }
   }
 }
 @media screen and (max-width: 700px) {
   #about {
     height: 115rem;
   }
+  .back-end-project {
+    margin-top: 1rem;
+  }
 }
-@media screen and (max-width: 575.7px) {
+@media screen and (max-width: 576px) {
   #about {
     height: 130rem;
+  }
+  .back-end-project {
+    margin-top: 60rem;
   }
   a.nav-link {
     width: 20% !important;

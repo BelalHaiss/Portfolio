@@ -117,7 +117,7 @@ body {
   padding: 60px; }
   #project .project__card {
     position: relative;
-    height: 55rem;
+    height: 45rem;
     overflow: hidden; }
     #project .project__card .project__heading {
       position: absolute;
@@ -127,11 +127,12 @@ body {
       text-transform: uppercase;
       letter-spacing: 0.5px;
       transform: translateX(-50%);
-      font-size: 2.4rem;
+      font-size: 1.9rem;
       font-weight: bolder;
       width: 100%;
-      margin-bottom: 20px;
-      text-align: center; }
+      margin-bottom: 20px !important;
+      text-align: center;
+      max-height: 29px; }
       #project .project__card .project__heading-1 {
         color: #ff6363; }
       #project .project__card .project__heading-2 {
@@ -140,7 +141,7 @@ body {
         -webkit-background-clip: text;
         background-clip: text; }
     #project .project__card .project__card__side {
-      height: 50rem;
+      height: 45rem;
       position: absolute;
       overflow: hidden;
       top: 50px;
@@ -184,32 +185,23 @@ body {
     transform: rotateY(-180deg); }
   #project .project__card:hover .project__card__side.card__back {
     transform: rotateY(0); }
-  #project .project__img {
-    background-blend-mode: screen;
-    height: 100%; }
-    #project .project__img.img-1 {
-      background-image: url("imgs/projects/blogr.jpg");
-      background-size: cover;
-      background-position: top; }
-    #project .project__img.img-2 {
-      background-image: url("imgs/projects/natrous.png");
-      background-size: cover;
-      background-position: top; }
-    #project .project__img.img-3 {
-      background-image: url("imgs/projects/google.png");
-      background-size: cover;
-      background-position: top; }
+  #project .project__img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    object-position: center; }
 
 .back-end-project {
   height: 100rem;
   perspective: 150rem;
   -moz-perspective: 150rem;
-  padding: 50px; }
+  padding: 100px;
+  margin-top: 10rem; }
   .back-end-project .project__card {
     position: relative;
-    height: 55rem;
+    height: 45rem;
     margin: 0 auto;
-    width: 50%;
     overflow: hidden; }
     .back-end-project .project__card .project__heading {
       position: absolute;
@@ -224,7 +216,7 @@ body {
       width: 100%;
       text-align: center; }
     .back-end-project .project__card .project__card__side {
-      height: 50rem;
+      height: 40rem;
       position: absolute;
       overflow: hidden;
       top: 50px;
@@ -261,24 +253,38 @@ body {
     transform: rotateY(-180deg); }
   .back-end-project .project__card:hover .project__card__side.card__back {
     transform: rotateY(0); }
-  .back-end-project .project__img {
+  .back-end-project .project__img img {
     width: 100%;
-    background-image: url("imgs/projects/thestraightpath.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100%; }
+    height: auto;
+    display: block;
+    object-fit: contain; }
+
+@media screen and (max-width: 1100px) {
+  .back-end-project .project__card {
+    height: 30rem;
+    overflow: hidden; }
+  .back-end-project .project__card__side {
+    height: 25rem; } }
 
 @media screen and (max-width: 828px) {
   #about {
-    height: 105rem; } }
+    height: 105rem; }
+  .back-end-project {
+    margin-top: 3rem; }
+    .back-end-project .project__card {
+      height: 30rem; } }
 
 @media screen and (max-width: 700px) {
   #about {
-    height: 115rem; } }
+    height: 115rem; }
+  .back-end-project {
+    margin-top: 1rem; } }
 
-@media screen and (max-width: 575.7px) {
+@media screen and (max-width: 576px) {
   #about {
     height: 130rem; }
+  .back-end-project {
+    margin-top: 60rem; }
   a.nav-link {
     width: 20% !important;
     text-align: center;

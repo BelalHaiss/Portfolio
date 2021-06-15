@@ -6,7 +6,7 @@
 
   & .project__card {
     position: relative;
-    height: 55rem;
+    height: 45rem;
     // width: 40%;
     overflow: hidden;
 
@@ -19,11 +19,12 @@
       text-transform: uppercase;
       letter-spacing: 0.5px;
       transform: translateX(-50%);
-      font-size: 2.4rem;
+      font-size: 1.9rem;
       font-weight: bolder;
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 20px !important;
       text-align: center;
+      max-height: 29px;
       &-1 {
         color: $light-red;
       }
@@ -39,7 +40,7 @@
       }
     }
     & .project__card__side {
-      height: 50rem;
+      height: 45rem;
 
       position: absolute;
 
@@ -110,23 +111,29 @@
       transform: rotateY(0);
     }
   }
-  & .project__img {
-    background-blend-mode: screen;
-    height: 100%;
-    &.img-1 {
-      background-image: url('imgs/projects/blogr.jpg');
-      background-size: cover;
-      background-position: top;
-    }
-    &.img-2 {
-      background-image: url('imgs/projects/natrous.png');
-      background-size: cover;
-      background-position: top;
-    }
-    &.img-3 {
-      background-image: url('imgs/projects/google.png');
-      background-size: cover;
-      background-position: top;
-    }
+  & .project__img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    object-position: center;
   }
+  //   background-blend-mode: screen;
+  //   height: 100%;
+  //   &.img-1 {
+  //     background-image: url('imgs/projects/blogr.jpg');
+  //     background-size: cover;
+  //     background-position: top;
+  //   }
+  //   &.img-2 {
+  //     background-image: url('imgs/projects/natrous.png');
+  //     background-size: cover;
+  //     background-position: top;
+  //   }
+  //   &.img-3 {
+  //     background-image: url('imgs/projects/google.png');
+  //     background-size: cover;
+  //     background-position: top;
+  //   }
+  // }
 }
