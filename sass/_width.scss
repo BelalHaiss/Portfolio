@@ -1,0 +1,31 @@
+@media screen and (max-width: 828px) {
+  #about {
+    height: 105rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  #about {
+    height: 115rem;
+  }
+}
+@media screen and (max-width: 575.7px) {
+  #about {
+    height: 130rem;
+  }
+  a.nav-link {
+    width: 20% !important;
+    text-align: center;
+    margin: 0 auto !important;
+    margin-bottom: 1rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about {
+    height: 165rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  #about {
+    height: 200rem;
+  }
+}

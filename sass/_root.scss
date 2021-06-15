@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
