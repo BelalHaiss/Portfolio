@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass sass/main.scss app2.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
