@@ -12,9 +12,14 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250rem;
 }

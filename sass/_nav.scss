@@ -1,6 +1,7 @@
 .navbar {
   background-color: $dark-cool;
   margin-bottom: 20px;
+
   & .navbar-brand {
     color: white;
     background-image: linear-gradient($yellow, #e2b30a);
@@ -10,13 +11,14 @@
     z-index: 1;
     margin-left: 20px;
     font-size: 3rem;
-    & .fas {
+    & img {
       color: $yellow;
-      font-size: 5rem;
-      display: inline-block;
+      // font-size: 2rem;
+      display: block;
+      width: 60px;
       transition: all 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
       &:hover {
-        transform: scale(1.2) translate(-50%, -10%) rotate(360deg);
+        transform: scale(1.1) translate(-50%, -10%) rotate(360deg);
         color: $light-red;
       }
     }
