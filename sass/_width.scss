@@ -28,18 +28,20 @@
   //     margin-top: 1rem;
   //   }
 }
+@media (max-width: 576px) {
+  a.nav-link {
+    width: 20% !important;
+    text-align: center;
+    margin: 0 auto !important;
+    margin-bottom: 1rem !important;
+  }
+}
 @media (max-width: 522px) {
   #about {
     height: 150rem;
   }
   //   .back-end-project {
   //     margin-top: 60rem;
-  //   }
-  //   a.nav-link {
-  //     width: 20% !important;
-  //     text-align: center;
-  //     margin: 0 auto !important;
-  //     margin-bottom: 1rem !important;
   //   }
 }
 @media (max-width: 415px) {
