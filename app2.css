@@ -125,6 +125,15 @@ body {
     font-size: 2.7rem;
     font-weight: bolder;
     text-transform: uppercase; }
+  .card p.card-text {
+    text-transform: uppercase; }
+  .card .flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .card .flex img {
+      width: 50px;
+      display: inline-block; }
   .card p {
     font-size: 2rem;
     line-height: 1.5; }
