@@ -224,7 +224,7 @@ body {
   text-transform: uppercase;
 }
 .card p.card-text {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .card .flex {
   display: -webkit-box;
